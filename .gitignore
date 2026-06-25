@@ -1,0 +1,15 @@
+# editor
+.vscode
+__pycache__
+*.bak
+
+# dataset — too large to commit
+WESAD/
+
+# trained models
+models/*.pth
+
+# outputs
+results/*.png
+results/*.npy
+results/*.csv
