@@ -9,8 +9,8 @@ from sklearn.preprocessing import StandardScaler
 
 # chest signals we use — ECG, EDA, RESP, TEMP
 # ACC and EMG dropped: less relevant for stress, adds noise
-SIGNAL_KEYS = ['ECG', 'EDA', 'RESP', 'TEMP']
-CHEST_SIGNAL_KEYS = ['ACC', 'ECG', 'EMG', 'EDA', 'TEMP', 'RESP']
+SIGNAL_KEYS = ['ECG', 'EDA', 'Resp', 'Temp']
+CHEST_SIGNAL_KEYS = ['ACC', 'ECG', 'EMG', 'EDA', 'Temp', 'Resp']
 
 ORIG_FS = 700    # RespiBAN sampling rate
 TARGET_FS = 100  # downsample to 100 Hz — manageable for CNN
